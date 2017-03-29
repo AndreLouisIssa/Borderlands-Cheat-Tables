@@ -3520,6 +3520,28 @@ db 73 00 61 00 79 00 20 00 00 00 00 00
 unregistersymbol(_say)
 </AssemblerScript>
             </CheatEntry>
+            <CheatEntry>
+              <ID>9451</ID>
+              <Description>"Unlock Set Ultility"</Description>
+              <LastState Activated="0"/>
+              <Color>80000008</Color>
+              <VariableType>Auto Assembler Script</VariableType>
+              <AssemblerScript>[ENABLE]
+aobscan(set, 83 C4 0C 85 C0 75 1A 6A)
+label(_set)
+registersymbol(_set)
+
+set:
+_set:
+db 83 C4 0C 85 FF 75 1A 6A
+
+[DISABLE]
+_set:
+db 83 C4 0C 85 C0 75 1A 6A
+
+unregistersymbol(_set)
+</AssemblerScript>
+            </CheatEntry>
           </CheatEntries>
         </CheatEntry>
         <CheatEntry>
