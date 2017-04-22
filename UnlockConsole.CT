@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CheatTable CheatEngineTableVersion="18">
+  <CheatEntries>
+    <CheatEntry>
+      <ID>9449</ID>
+      <Description>"Disable Console Say"</Description>
+      <LastState Activated="0"/>
+      <Color>80000008</Color>
+      <VariableType>Auto Assembler Script</VariableType>
+      <AssemblerScript>[ENABLE]
+aobscan(say, ?? 00 61 00 79 00 20 00 00 00 00 00)
+label(_say)
+registersymbol(_say)
+
+say:
+_say:
+db 00 00 61 00 79 00 20 00 00 00 00 00
+
+[DISABLE]
+_say:
+db 73 00 61 00 79 00 20 00 00 00 00 00
+
+unregistersymbol(_say)
+</AssemblerScript>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>9450</ID>
+      <Description>"Enable Developer Commands"</Description>
+      <LastState Activated="0"/>
+      <Color>80000008</Color>
+      <VariableType>Auto Assembler Script</VariableType>
+      <AssemblerScript>[ENABLE]
+aobscan(dev, 58 01 04 28)
+label(_dev)
+registersymbol(_dev)
+
+dev:
+_dev:
+db 58 01 04 27
+
+[DISABLE]
+_dev:
+db 58 01 04 28
+
+unregistersymbol(_dev)
+</AssemblerScript>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>9451</ID>
+      <Description>"Unlock Set Ultility"</Description>
+      <LastState Activated="0"/>
+      <Color>80000008</Color>
+      <VariableType>Auto Assembler Script</VariableType>
+      <AssemblerScript>[ENABLE]
+aobscan(set, 83 C4 0C 85 C0 75 1A 6A)
+label(_set)
+registersymbol(_set)
+
+set:
+_set:
+db 83 C4 0C 85 FF 75 1A 6A
+
+[DISABLE]
+_set:
+db 83 C4 0C 85 C0 75 1A 6A
+
+unregistersymbol(_set)
+</AssemblerScript>
+    </CheatEntry>
+  </CheatEntries>
+  <UserdefinedSymbols/>
+</CheatTable>
