@@ -9,11 +9,13 @@ Usage:
 - You can choose to start the game first or after opening the table   
 - Open the tables (.CT files) using Cheat Engine (at least version 6.4?)       
 
-UnlockConsole.CT:   
+Once both table is open and the game is running...
+
+**UnlockConsole.CT**:   
 1. Click the monitor icon in the top left, select the game process.   
 1. Enable the scripts you want by clicking the checkboxes at the bottom    
 
-BL2.CT or TPS.CT (TechnoJacker's Cheat Table Compilation):
+**BL2.CT** or **TPS.CT** (TechnoJacker's Cheat Table Compilation):
 1. Click the checkbox next to `[Enable]`
 1. Wait a bit and then enable the scripts you want throughout the different subsections    
 (You may want to enter an instance (load a save) for some of them to work.)    
