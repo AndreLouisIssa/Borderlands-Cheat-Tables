@@ -4,6 +4,7 @@ A repository for cheat table compilations for Borderlands titles.
 
 Downloads for Cheat Engine can be found [Here](http://www.cheatengine.org/downloads.php)     
 A download without installer is available for [Cheat Engine 6.6](http://www.cheatengine.org/download/CheatEngine66_NOsetup.rar)
+EDIT: Must go here https://github.com/cheat-engine/cheat-engine/releases/download/6.6/CheatEngine66.exe
 
 Usage:
 - You can choose to start the game first or after opening the table   
